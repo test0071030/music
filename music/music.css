@@ -1,0 +1,17 @@
+#player-container #play-pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  height:60px;
+  width: 60px;
+  background: gray;
+  background-image: url('http://basichow.com/asserts/images/play.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:20px;
+}
+.play {
+  background-image: url('http://basichow.com/asserts/images/play.png');
+}
+.pause {
+   background-image: url('http://basichow.com/asserts/images/pause.png')!important;
+}
