@@ -42,7 +42,10 @@ YOUTUBE
 <div id="player-container">
   <div id="play-pause" class="play">Play</div>
 </div>
+
+
 <script>
+
 var track = document.getElementById('track');
 
 var controlBtn = document.getElementById('play-pause');
@@ -63,7 +66,6 @@ controlBtn.addEventListener("click", playPause);
 track.addEventListener("ended", function() {
   controlBtn.className = "play";
 });
-
 
 </script>
 
