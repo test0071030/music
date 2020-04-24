@@ -16,5 +16,4 @@ function playPause() {
 
 controlBtn.addEventListener("click", playPause);
 track.addEventListener("ended", function() {
-  controlBtn.className = "play";
-});
+  controlBtn.className = "play";});
