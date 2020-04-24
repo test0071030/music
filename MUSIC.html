@@ -1,0 +1,145 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+<meta charset="utf-8">
+<title>倩</title>
+
+    <link rel="stylesheet" type="text/css" href="music.css">
+
+
+</head>
+
+
+<body>
+<h1>倩女幽魂</<h1>
+YOUTUBE
+  <div style="position:relative;width:267px;height:25px;overflow:hidden;">
+  <div style="position:absolute;top:-276px;left:-5px">
+    <iframe width="300" height="300"
+      src="https://www.youtube.com/embed/Onu3J-Uj78Q?rel=0">
+    </iframe>
+  </div>
+</div>
+
+
+<h2>please</h2>
+
+
+<audio src="https://s3-ap-northeast-1.amazonaws.com/dazedbear-assets/Bluebird.mp3" controls>
+	<h3>遇到不支援的瀏覽器會出現這行字</h3>
+</audio>
+
+
+
+
+<audio id="track">
+  <source src="https://s3-ap-northeast-1.amazonaws.com/dazedbear-assets/Bluebird.mp3" type="audio/mpeg" />
+</audio>
+
+<div id="player-container">
+  <div id="play-pause" class="play">Play</div>
+</div>
+<script>
+var track = document.getElementById('track');
+
+var controlBtn = document.getElementById('play-pause');
+
+function playPause() {
+    if (track.paused) {
+        track.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn.className = "pause";
+    } else {
+        track.pause();
+         //controlBtn.textContent = "Play";
+        controlBtn.className = "play";
+    }
+}
+
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function() {
+  controlBtn.className = "play";
+});
+
+
+</script>
+
+
+
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+<meta charset="utf-8">
+<title>倩</title>
+
+    <link rel="stylesheet" type="text/css" href="music.css">
+
+
+</head>
+
+
+<body>
+<h1>倩女幽魂</<h1>
+YOUTUBE
+  <div style="position:relative;width:267px;height:25px;overflow:hidden;">
+  <div style="position:absolute;top:-276px;left:-5px">
+    <iframe width="300" height="300"
+      src="https://www.youtube.com/embed/Onu3J-Uj78Q?rel=0">
+    </iframe>
+  </div>
+</div>
+
+
+<h2>please</h2>
+
+
+<audio src="https://s3-ap-northeast-1.amazonaws.com/dazedbear-assets/Bluebird.mp3" controls>
+	<h3>遇到不支援的瀏覽器會出現這行字</h3>
+</audio>
+
+
+
+
+<audio id="track">
+  <source src="http://basichow.com/asserts/interlude.mp3" type="audio/mpeg" />
+</audio>
+
+<div id="player-container">
+  <div id="play-pause" class="play">Play</div>
+</div>
+<script>
+var track = document.getElementById('track');
+
+var controlBtn = document.getElementById('play-pause');
+
+function playPause() {
+    if (track.paused) {
+        track.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn.className = "pause";
+    } else {
+        track.pause();
+         //controlBtn.textContent = "Play";
+        controlBtn.className = "play";
+    }
+}
+
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function() {
+  controlBtn.className = "play";
+});
+
+
+</script>
+
+
+
+</body>
+</html>
+>>>>>>> 3c0ce1e71dad063e2da087c0cf7c934d19f69468
