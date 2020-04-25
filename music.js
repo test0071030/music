@@ -17,3 +17,10 @@ function playPause() {
 controlBtn.addEventListener("click", playPause);
 track.addEventListener("ended", function() {
   controlBtn.className = "play";});
+
+
+
+
+  var track = document.getElementById('track');
+
+  var controlBtn = document.getElementById('player-stop');
