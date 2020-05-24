@@ -80,6 +80,21 @@ text-align: center;
 
 
 
+
+@media screen and (min-width: 960px) {
+  .player {
+    width: :300px;
+    height: 60px;
+  }
+}
+
+
+
+
+
+
+
+
 ul,li{
   list-style: none;
 }
