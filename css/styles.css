@@ -76,6 +76,9 @@ margin-top: 50px;
 margin-top: 40px;
 display: flex;
 text-align: center;
+text-decoration:none;
+outline:0 none !important;
+
 }
 
 
@@ -100,21 +103,8 @@ ul,li{
 }
 
 
-.button{
-  border: 1px solid black ;
-  padding: 10px 20px;
-  display: inline-block;
-  color: black;
-  border-radius: 30px;
-  margin-top: 20px;
-  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
-}
 
 
-.button:hover {
-  background: black;
-  color: white;
-}
 
 figcaption{
   font-size: 10px;
