@@ -74,11 +74,11 @@ margin-top: 50px;
 
 .player{
 margin-top: 40px;
-display: block;
+display: inline;
 text-align: center;
 text-decoration:none;
 outline:0 none !important;
-width: 300px;
+width: 250px;
 height: 60px;
 }
 
@@ -141,4 +141,18 @@ margin-bottom: 50px;
 .mid{
 
 text-align: center;
+}
+
+.bell{
+  background-color: transparent;
+  margin-top: 40px;
+  display: -webkit-inline-box;
+  text-align: center;
+  text-decoration: none;
+  outline: 0 none !important;
+  width: 100%;
+}
+
+.bell:disabled{
+  opacity: 0.3;
 }
