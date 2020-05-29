@@ -82,6 +82,10 @@ width: 300px;
 height: 60px;
 }
 
+#player-holder{
+  width: 300px;
+  height: 60px;
+}
 
 ul,li{
   list-style: none;
