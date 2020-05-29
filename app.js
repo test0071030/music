@@ -57,7 +57,14 @@ function bellpuase6p(){
         if(cond==3){
             player.currentTime=61;
             player.play();
-            cond=0;
+            bell.disabled=true;
+            timeout=setTimeout(function(){
+                player.pause();
+                bell.disabled=false;
+                if(player.currentTime>=76){
+                    cond=0;
+                }
+            }, 16000);
         }
     }, 500);
 }
@@ -128,7 +135,14 @@ function bellpuase7p(){
         if(cond==8){
             player.currentTime=103;
             player.play();
-            cond=0;
+            bell.disabled=true;
+            timeout=setTimeout(function(){
+                player.pause();
+                bell.disabled=false;
+                if(player.currentTime>=118){
+                    cond=0;
+                }
+            }, 16000);
         }
     }, 500);
 }
@@ -175,7 +189,14 @@ function bellpuase8p(){
         if(cond==11){
             player.currentTime=61;
             player.play();
-            cond=0;
+            bell.disabled=true;
+            timeout=setTimeout(function(){
+                player.pause();
+                bell.disabled=false;
+                if(player.currentTime>=76){
+                    cond=0;
+                }
+            }, 16000);
         }
     }, 500);
 }
@@ -238,7 +259,7 @@ function bellpuase9p(){
             timeout=setTimeout(function(){
                 player.pause();
                 bell.disabled=false;
-                if(player.currentTime>=60){
+                if(player.currentTime>=83){
                     cond=16;
                 }
             }, 18000);
@@ -246,7 +267,14 @@ function bellpuase9p(){
         if(cond==16){
             player.currentTime=103;
             player.play();
-            cond=0;
+            bell.disabled=true;
+            timeout=setTimeout(function(){
+                player.pause();
+                bell.disabled=false;
+                if(player.currentTime>=118){
+                    cond=0;
+                }
+            }, 16000);
         }
     }, 500);
 }
